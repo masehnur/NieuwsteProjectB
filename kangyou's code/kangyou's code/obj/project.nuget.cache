@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xFGhgGSrIXSF1lWtIN/tfAADYCnqQJvSNRs4u0FXP/8iWiXHgjOKm4yuBaJ5idA5gxAwI9XyM3zadH0RTeZ1kQ==",
+  "dgSpecHash": "6qoHMgphP6GCj7WEQA0ls3LCtIupik2PkItQ3VSdjUMpB2Wv01VXY/8YSfu32zRVLM0fyT/vs1ITHEYW3/r9Sg==",
   "success": true,
   "projectFilePath": "C:\\Users\\kangb\\source\\repos\\NieuwsteProjectB\\kangyou's code\\kangyou's code\\kangyou's code.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kangb\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

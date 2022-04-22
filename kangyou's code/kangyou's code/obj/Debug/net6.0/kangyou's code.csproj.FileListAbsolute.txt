@@ -13,3 +13,5 @@ C:\Users\kangb\source\repos\NieuwsteProjectB\kangyou's code\kangyou's code\obj\D
 C:\Users\kangb\source\repos\NieuwsteProjectB\kangyou's code\kangyou's code\obj\Debug\net6.0\kangyou's code.pdb
 C:\Users\kangb\source\repos\NieuwsteProjectB\kangyou's code\kangyou's code\obj\Debug\net6.0\kangyou's code.genruntimeconfig.cache
 C:\Users\kangb\source\repos\NieuwsteProjectB\kangyou's code\kangyou's code\obj\Debug\net6.0\ref\kangyou's code.dll
+C:\Users\kangb\source\repos\NieuwsteProjectB\kangyou's code\kangyou's code\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kangb\source\repos\NieuwsteProjectB\kangyou's code\kangyou's code\obj\Debug\net6.0\kangyou's code.csproj.CopyComplete
