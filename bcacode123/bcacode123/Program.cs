@@ -53,7 +53,68 @@ public class Program
                 // geen ideal
                 else if (methode == "2" || methode == "3")
                 {
-                    Console.WriteLine("Klik op 'Betalen' voor verdere instructies.");
+                    page = 2;
+                    while (page == 2)
+                    {
+                        double cardNumber;
+                        double pin;
+                        Console.WriteLine("Voer uw kaartnummer in.");
+                        while (true)
+                        {
+                            while (!double.TryParse(Console.ReadLine(), out cardNumber))
+                            {
+                                Console.Write("Voer alleen nummers in. Probeer nogmaals.\n");
+                            }
+                            if ((cardNumber.ToString()).Length != 16)
+                            {
+                                Console.Write("De ingevoerde kaartnummer is geen 16 getallen. Probeer nogmaals.\n");
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
+                        Console.WriteLine("Tot wanneer is het geldig?");
+                        var datum = Console.ReadLine();
+                        Console.WriteLine("Voer uw Pin in.");
+                        while (true)
+                        {
+                            while (!double.TryParse(Console.ReadLine(), out pin))
+                            {
+                                Console.Write("Voer alleen nummers in. Probeer nogmaals.\n");
+                            }
+                            if ((pin.ToString()).Length != 4)
+                            {
+                                Console.Write("De ingevoerde Pin moet uit vier getallen bestaan. Probeer nogmaals.\n");
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
+                        Console.WriteLine(cardNumber);
+                        Console.WriteLine(pin);
+                        if ((cardNumber.ToString()).Length != 16 || datum.Length != 5 || (pin.ToString()).Length != 4)
+                        {
+                            Console.WriteLine("Dit informatie klopt niet, probeer nogmaals.");
+                            page = 2;
+                        }
+                        else
+                        {
+                            page = 1;
+                            Console.WriteLine("Voordat u betaalt, wilt u terug naar het hoofdmenu?\n[0] Ja\n[1] Nee, ik wil betalen");
+                            var bevestig = Console.ReadLine();
+                            if (bevestig == "0")
+                            {
+                                page = 0;
+                            }
+                            else if (bevestig == "1")
+                            {
+                                Console.WriteLine("Te weinig saldo");
+                            }
+                        }
+                    }
+
                 }
                 else
                 {

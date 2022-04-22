@@ -1,0 +1,16 @@
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\bin\Debug\net5.0\bcacode123.exe
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\bin\Debug\net5.0\bcacode123.deps.json
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\bin\Debug\net5.0\bcacode123.runtimeconfig.json
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\bin\Debug\net5.0\bcacode123.runtimeconfig.dev.json
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\bin\Debug\net5.0\bcacode123.dll
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\bin\Debug\net5.0\bcacode123.pdb
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\bcacode123.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\bcacode123.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\bcacode123.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\bcacode123.AssemblyInfo.cs
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\bcacode123.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\bcacode123.dll
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\refint\bcacode123.dll
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\bcacode123.pdb
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\bcacode123.genruntimeconfig.cache
+C:\Users\Gebruiker\source\repos\NieuwsteProjectB\bcacode123\bcacode123\obj\Debug\net5.0\ref\bcacode123.dll
