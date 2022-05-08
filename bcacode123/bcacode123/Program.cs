@@ -38,6 +38,13 @@ public class Program
                     if (bankInput == "1" || bankInput == "2" || bankInput == "3")
                     {
                         Console.WriteLine("Klik op 'Betalen' om door te gaan naar uw bank-app.");
+                        Console.WriteLine("Toets '0' als u terug wilt gaan.\n[0] Terug");
+                        var teruggaan = Console.ReadLine();
+                         if (teruggaan == "0")
+                        {
+                            page = 0;
+                        }
+                        
                     }
                     else if (bankInput == "0")
                     {
@@ -58,6 +65,7 @@ public class Program
                     {
                         double cardNumber;
                         double pin;
+                        DateTime datum;
                         Console.WriteLine("Voer uw kaartnummer in.");
                         while (true)
                         {
@@ -74,8 +82,26 @@ public class Program
                                 break;
                             }
                         }
+
                         Console.WriteLine("Tot wanneer is het geldig?");
-                        var datum = Console.ReadLine();
+
+
+                        Console.WriteLine("DATUM MM-YYYY");
+                        while (true)
+                        {
+                            while (!DateTime.TryParseExact(Console.ReadLine(), "M-yyyy", null, System.Globalization.DateTimeStyles.None, out datum))
+                            {
+                                Console.Write("Alleen een datum in het formaat MM-YYYY is toegestaan. Probeer nogmaals.\n");
+                            }
+                            if (((datum.Year < DateTime.Now.Year) || (datum.Year == DateTime.Now.Year) && (datum.Month < DateTime.Now.Month)) || datum.Year > (DateTime.Now.Year + 3))
+                            {
+                                Console.Write("Voer alsjeblieft een geldig jaar en maand in. Probeer nogmaals.\n");
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
                         Console.WriteLine("Voer uw Pin in.");
                         while (true)
                         {
@@ -92,27 +118,18 @@ public class Program
                                 break;
                             }
                         }
-                        Console.WriteLine(cardNumber);
-                        Console.WriteLine(pin);
-                        if ((cardNumber.ToString()).Length != 16 || datum.Length != 5 || (pin.ToString()).Length != 4)
+                        page = 1;
+                        Console.WriteLine("Voordat u betaalt, wilt u terug naar het hoofdmenu?\n[0] Ja\n[1] Nee, ik wil betalen");
+                        var bevestig = Console.ReadLine();
+                        if (bevestig == "0")
                         {
-                            Console.WriteLine("Dit informatie klopt niet, probeer nogmaals.");
-                            page = 2;
+                            page = 0;
                         }
-                        else
+                        else if (bevestig == "1")
                         {
-                            page = 1;
-                            Console.WriteLine("Voordat u betaalt, wilt u terug naar het hoofdmenu?\n[0] Ja\n[1] Nee, ik wil betalen");
-                            var bevestig = Console.ReadLine();
-                            if (bevestig == "0")
-                            {
-                                page = 0;
-                            }
-                            else if (bevestig == "1")
-                            {
-                                Console.WriteLine("Te weinig saldo");
-                            }
+                            Console.WriteLine("Te weinig saldo");
                         }
+                        
                     }
 
                 }
