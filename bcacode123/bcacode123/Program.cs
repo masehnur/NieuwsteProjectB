@@ -12,7 +12,7 @@ public class Program
         while (page == 0)
         {
             // Wanneer willen ze betalen
-            Console.WriteLine("Betaalt u liever vooraf of achteraf?.\n[0] Terug\n[1] Vooraf\n[2] Achteraf\n");
+            Console.WriteLine("Betaalt u liever vooraf of achteraf?\n[0] Terug\n[1] Vooraf\n[2] Achteraf\n");
             var wanneer = Console.ReadLine();
             if (wanneer == Achteraf)
             {
@@ -37,23 +37,35 @@ public class Program
                     // bankopties
                     if (bankInput == "1" || bankInput == "2" || bankInput == "3")
                     {
-                        Console.WriteLine("Klik op 'Betalen' om door te gaan naar uw bank-app.");
-                        Console.WriteLine("Toets '0' als u terug wilt gaan.\n[0] Terug");
-                        var teruggaan = Console.ReadLine();
-                         if (teruggaan == "0")
+                        page = 5;
+                        Console.WriteLine("Toets '0' om terug te gaan, toets '1' om door te gaan naar uw mobiele bank-app.\n[0] Terug \n[1] Betalen" );
+                        while (page == 5)
                         {
-                            page = 0;
+                            var teruggaan = Console.ReadLine();
+                            if (teruggaan == "0")
+                            {
+                                page = 0;
+                            }
+                            else if (teruggaan == "1")
+                            {
+                                Console.WriteLine("U wordt doorgestuurd naar uw mobiele bank-app.");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Toets een '0' of '1' in.");
+
+                            }
                         }
-                        
+
                     }
                     else if (bankInput == "0")
                     {
-                        page = 0;
+                        page = 1;
                     }
                     else
                     {
                         Console.WriteLine("Verkeerde input, probeer nogmaals.\n");
-                        page = 0;
+                        page = 5;
                     }
 
                 }
@@ -120,16 +132,23 @@ public class Program
                         }
                         page = 1;
                         Console.WriteLine("Voordat u betaalt, wilt u terug naar het hoofdmenu?\n[0] Ja\n[1] Nee, ik wil betalen");
-                        var bevestig = Console.ReadLine();
-                        if (bevestig == "0")
+                        while (page == 1)
                         {
-                            page = 0;
+                            var bevestig = Console.ReadLine();
+                            if (bevestig == "0")
+                            {
+                                page = 0;
+                            }
+                            else if (bevestig == "1")
+                            {
+                                Console.WriteLine("Te weinig saldo");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Toets alleen '0' of '1' in.");
+                                page = 1;
+                            }
                         }
-                        else if (bevestig == "1")
-                        {
-                            Console.WriteLine("Te weinig saldo");
-                        }
-                        
                     }
 
                 }
