@@ -1,0 +1,44 @@
+[
+  {
+    "KlantID": 5,
+    "TafelID": 5,
+    "AantalPersonen": 5,
+    "ReserveringTijd": "2023-02-12T20:00:00"
+  },
+  {
+    "KlantID": 14,
+    "TafelID": 12,
+    "AantalPersonen": 1,
+    "ReserveringTijd": "2022-08-14T17:14:00"
+  },
+  {
+    "KlantID": 2,
+    "TafelID": 8,
+    "AantalPersonen": 2,
+    "ReserveringTijd": "2022-06-12T17:22:00"
+  },
+  {
+    "KlantID": 7,
+    "TafelID": 5,
+    "AantalPersonen": 7,
+    "ReserveringTijd": "2022-06-14T20:00:00"
+  },
+  {
+    "KlantID": 4,
+    "TafelID": 8,
+    "AantalPersonen": 8,
+    "ReserveringTijd": "2022-05-12T12:22:00"
+  },
+  {
+    "KlantID": 4,
+    "TafelID": 8,
+    "AantalPersonen": 7,
+    "ReserveringTijd": "2022-05-14T14:55:00"
+  },
+  {
+    "KlantID": 22,
+    "TafelID": 5,
+    "AantalPersonen": 5,
+    "ReserveringTijd": "2022-06-22T20:00:00"
+  }
+]
