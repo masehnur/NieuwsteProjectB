@@ -477,16 +477,17 @@ namespace Menu
                                 Console.WriteLine("1. Tomatensoep    $12 \n\n");
                                 Console.WriteLine("Totaalbedrag :              $12\n\n\n\n");
 
-                                Console.WriteLine("Nog een  gerecht toevoegen ? kies nummer [1]\n\n ");
-                                Console.WriteLine("Verder gaan met reserveren ? kies [2] ");
+                                Console.WriteLine("Nog een  gerecht toevoegen ?\n\nkies nummer [1]\n\n ");
+                                Console.WriteLine("Verder gaan met reserveren ?\n\nkies [2] ");
                                 string meer_bestellen=  Console.ReadLine();
                                 if (meer_bestellen == "1")
                                 {
-                                    Console.WriteLine("Kies de nummer : ");
+                                    Console.Clear();
+                                    Console.WriteLine("\n\n\nKies de nummer : ");
                                     string Kiesnummer_2 = Console.ReadLine();
                                     if (Kiesnummer_2 == "2")
                                     {
-                                        Console.WriteLine("1. Tomatensoep    $12");
+                                        Console.WriteLine("\n\n\n1. Tomatensoep    $12");
                                         Console.WriteLine("2. Groentesoep    $6");
 
                                         Console.WriteLine("Totaalbedrag :              $18\n\n\n\n");
