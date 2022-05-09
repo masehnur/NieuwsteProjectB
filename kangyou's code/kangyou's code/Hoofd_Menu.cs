@@ -1,8 +1,12 @@
-﻿namespace Program.cs
+﻿using Newtonsoft.Json;
+
+namespace Program.cs
 {
     class Program
     {
         [Serializable]
+
+
         public class Voorgerechten
         {
             public string Name { get; set; }
@@ -19,6 +23,11 @@
             public double Price { get; set; }
         }
         public class Dessert
+        {
+            public string Name { get; set; }
+            public double Price { get; set; }
+        }
+        public class Alle_gerechten
         {
             public string Name { get; set; }
             public double Price { get; set; }
