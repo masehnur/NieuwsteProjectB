@@ -32,7 +32,7 @@ namespace Menu
             Console.WriteLine(" Kies 4 voor de Dessert \n ");
             Console.WriteLine(" Kies 5 voor een keuze maken \n ");
         dot: Console.WriteLine("\n");
-            Console.WriteLine(" Type een nummer in : ");
+            Console.WriteLine(" Type een nummer in : "); 
 
 
             string a = Console.ReadLine();
