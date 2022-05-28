@@ -1,0 +1,16 @@
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\bin\Debug\net5.0\9999.exe
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\bin\Debug\net5.0\9999.deps.json
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\bin\Debug\net5.0\9999.runtimeconfig.json
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\bin\Debug\net5.0\9999.runtimeconfig.dev.json
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\bin\Debug\net5.0\9999.dll
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\bin\Debug\net5.0\9999.pdb
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\9999.csproj.AssemblyReference.cache
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\9999.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\9999.AssemblyInfoInputs.cache
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\9999.AssemblyInfo.cs
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\9999.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\9999.dll
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\refint\9999.dll
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\9999.pdb
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\9999.genruntimeconfig.cache
+C:\Users\ahmad\source\repos\NieuwsteProjectB\9999\obj\Debug\net5.0\ref\9999.dll
