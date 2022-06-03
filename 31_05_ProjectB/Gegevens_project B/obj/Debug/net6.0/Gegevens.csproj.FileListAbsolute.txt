@@ -1,0 +1,221 @@
+D:\Project_B\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+D:\Project_B\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+D:\Project_B\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+D:\Project_B\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+D:\Project_B\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+D:\Project_B\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+D:\Project_B\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+D:\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+D:\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+D:\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+D:\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+D:\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+D:\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+D:\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+D:\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+D:\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+D:\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+D:\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+D:\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+D:\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+D:\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+D:\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+D:\Nieuwe map (2)\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+D:\Nieuwe map (2)\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+D:\Nieuwe map (2)\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+D:\Nieuwe map (2)\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+D:\Nieuwe map (2)\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+D:\Nieuwe map (2)\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+D:\Nieuwe map (2)\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+D:\Nieuwe code project b\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+D:\Nieuwe code project b\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+D:\Nieuwe code project b\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+D:\Nieuwe code project b\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+D:\Nieuwe code project b\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+D:\Nieuwe code project b\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+D:\Nieuwe code project b\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\Gebruiker\Desktop\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\ahmad\Downloads\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\kangb\OneDrive\Pictures\laatste\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\ahmad\Downloads\22_05_2022_project\Nieuwe map\Nieuwe map\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\kangb\OneDrive\Pictures\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\maseh\OneDrive\Desktop\files\school\project\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\kangb\OneDrive\桌面\23_05_projectB\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\ahmad\Downloads\28_05_projectB\28_05_projectB\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\kangb\OneDrive\Pictures\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll

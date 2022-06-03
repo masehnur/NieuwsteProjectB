@@ -1,0 +1,34 @@
+D:\Programming\C#\Part1\Part1\bin\Debug\net6.0\Part1.exe
+D:\Programming\C#\Part1\Part1\bin\Debug\net6.0\Part1.deps.json
+D:\Programming\C#\Part1\Part1\bin\Debug\net6.0\Part1.runtimeconfig.json
+D:\Programming\C#\Part1\Part1\bin\Debug\net6.0\Part1.dll
+D:\Programming\C#\Part1\Part1\bin\Debug\net6.0\Part1.pdb
+D:\Programming\C#\Part1\Part1\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\Part1.csproj.AssemblyReference.cache
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\Part1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\Part1.AssemblyInfoInputs.cache
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\Part1.AssemblyInfo.cs
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\Part1.csproj.CoreCompileInputs.cache
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\Part1.csproj.CopyComplete
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\Part1.dll
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\refint\Part1.dll
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\Part1.pdb
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\Part1.genruntimeconfig.cache
+D:\Programming\C#\Part1\Part1\obj\Debug\net6.0\ref\Part1.dll
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\bin\Debug\net6.0\Part1.exe
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\bin\Debug\net6.0\Part1.deps.json
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\bin\Debug\net6.0\Part1.runtimeconfig.json
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\bin\Debug\net6.0\Part1.dll
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\bin\Debug\net6.0\Part1.pdb
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\Part1.csproj.AssemblyReference.cache
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\Part1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\Part1.AssemblyInfoInputs.cache
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\Part1.AssemblyInfo.cs
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\Part1.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\Part1.csproj.CopyComplete
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\Part1.dll
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\refint\Part1.dll
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\Part1.pdb
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\Part1.genruntimeconfig.cache
+C:\Users\ahmad\Downloads\Part1 (10.42)\Part1\obj\Debug\net6.0\ref\Part1.dll

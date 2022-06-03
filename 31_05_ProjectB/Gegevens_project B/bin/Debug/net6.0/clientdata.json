@@ -1,0 +1,110 @@
+[
+  {
+    "ID": 0,
+    "Email": "ahmad@gmail.com",
+    "Naam": "Ahmad",
+    "Achternaam": "Asaad",
+    "GeboorteDatum": "1950-09-11",
+    "TelefoonNummer": "0123123123",
+    "Wachtwoord": "0123456789"
+  },
+  {
+    "ID": 1,
+    "Email": "maseh@live.nl",
+    "Naam": "Maseh",
+    "Achternaam": "Ahmad",
+    "GeboorteDatum": "2000-05-20",
+    "TelefoonNummer": "123122312",
+    "Wachtwoord": "01234567"
+  },
+  {
+    "ID": 2,
+    "Email": "ahmadasaad@live.nl",
+    "Naam": "Ahmad",
+    "Achternaam": "Ali",
+    "GeboorteDatum": "1990-07-11",
+    "TelefoonNummer": "147852369",
+    "Wachtwoord": "plokij147"
+  },
+  {
+    "ID": 3,
+    "Email": "nuur@gmail.com",
+    "Naam": "Nuur",
+    "Achternaam": "Ahmad",
+    "GeboorteDatum": "1966-12-20",
+    "TelefoonNummer": "022221111",
+    "Wachtwoord": "7777777"
+  },
+  {
+    "ID": 4,
+    "Email": "kangyou@live.nl",
+    "Naam": "Kangyou",
+    "Achternaam": "Nuur",
+    "GeboorteDatum": "1988-11-14",
+    "TelefoonNummer": "55544455",
+    "Wachtwoord": "asdf456"
+  },
+  {
+    "ID": 5,
+    "Email": "fadi@live.nl",
+    "Naam": "Fadi",
+    "Achternaam": "Ali",
+    "GeboorteDatum": "1964-05-11",
+    "TelefoonNummer": "44558877",
+    "Wachtwoord": "99887766"
+  },
+  {
+    "ID": 6,
+    "Email": "123ert@gmail.com",
+    "Naam": "Alex",
+    "Achternaam": "Nuur",
+    "GeboorteDatum": "1988-11-15",
+    "TelefoonNummer": "12345678",
+    "Wachtwoord": "11112222"
+  },
+  {
+    "ID": 7,
+    "Email": "kiwi@gmail.com",
+    "Naam": "kangyou",
+    "Achternaam": "chen",
+    "GeboorteDatum": "2001-01-10",
+    "TelefoonNummer": "0640223212",
+    "Wachtwoord": "pokemon12"
+  },
+  {
+    "ID": 8,
+    "Email": "ali@live.nl",
+    "Naam": "Alii",
+    "Achternaam": "Asaad",
+    "GeboorteDatum": "1977-05-11",
+    "TelefoonNummer": "01472583",
+    "Wachtwoord": "00000000"
+  },
+  {
+    "ID": 9,
+    "Email": "ahmad14@gmail.com",
+    "Naam": "Ahmad",
+    "Achternaam": "Alseed",
+    "GeboorteDatum": "1988-04-11",
+    "TelefoonNummer": "0123456789",
+    "Wachtwoord": "0000000000"
+  },
+  {
+    "ID": 10,
+    "Email": "ahmad1234@gmail.com",
+    "Naam": "Ahmad",
+    "Achternaam": "Adil",
+    "GeboorteDatum": "1988-05-11",
+    "TelefoonNummer": "1234567890",
+    "Wachtwoord": "0000000000"
+  },
+  {
+    "ID": 11,
+    "Email": "jaw@gmail.com",
+    "Naam": "jan",
+    "Achternaam": "willem",
+    "GeboorteDatum": "2001-01-01",
+    "TelefoonNummer": "0000000000",
+    "Wachtwoord": "444455"
+  }
+]
