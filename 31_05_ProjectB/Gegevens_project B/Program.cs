@@ -22,6 +22,7 @@ namespace Reservering
         Start_point:
             //menu/inloggen/registreren/verder als gast
             #region 1
+
             // Menu weergeven
             Console.Clear();
             Console.WriteLine("\t\t\t--<<<Welkom in ons restaurant>>>--\n");
@@ -29,13 +30,14 @@ namespace Reservering
             Console.WriteLine("\t\t 2 - Inloggen");
             Console.WriteLine("\t\t 3 - Verder als gast");
             Console.WriteLine("\t\t 4 - Informatie");
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("\nVoer een van de bovenstaande nummers in: ");
-
+            Console.ResetColor();
 
             // Sleutel invoer lezen
             string Start1 = Console.ReadLine();
             if (Start1 == "1")
-            { 
+            {
             email:
                 Console.Write("\nE-mail: ");
                 string email1 = Console.ReadLine()!;
@@ -43,9 +45,9 @@ namespace Reservering
                 // Als e-mail niet geldig is, geven we een fout weer
                 if (!new EmailAddressAttribute().IsValid(email1))
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Onjuiste e-mail! Voer uw e-mail opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto email;
                 }
 
@@ -56,18 +58,18 @@ namespace Reservering
                 // als de naam korter is dan 3 tekens, geven we een fout weer
                 if (naam.Length < 3)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Te korte naam! Voer uw naam opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto naam;
                 }
 
                 // als de naam niet alleen letters bevat, geven we een fout weer
                 if (!naam.All(char.IsLetter))
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Een naam mag alleen letters bevatten! Voer uw naam opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto naam;
                 }
 
@@ -78,18 +80,18 @@ namespace Reservering
                 // als de achternaam korter is dan 3 tekens, geven we een fout weer
                 if (Achternaam.Length < 3)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Te korte achternaam! Voer uw achternaam opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto Achternaam;
                 }
 
                 // als achternaam niet alleen letters bevat, geven we een fout weer
                 if (!Achternaam.All(char.IsLetter))
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Een achternaam mag alleen letters bevatten! Voer uw naam opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto Achternaam;
                 }
 
@@ -101,28 +103,28 @@ namespace Reservering
                 // Als de opgegeven datumreeks geen geldige datum is of de geparseerde datum niet is gebeurd, geven we een fout weer
                 if (!DateTime.TryParse(birthDate1, out DateTime fixedDate1) || fixedDate1 >= DateTime.Today)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Onjuiste datum! Voer uw Geboortedatum opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto Geboortedatum;
                 }
 
                 // als het verschil met vandaag en de opgegeven datum kleiner is dan 16 jaar, geven we een fout weer
                 if (DateTime.Today.Subtract(fixedDate1).TotalDays / 365.24 < 16)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"Je bent {Math.Floor(DateTime.Today.Subtract(fixedDate1).TotalDays / 365.24)} jaar. " +
                                       $"Je moet 16 jaar oud zijn om je in te schrijven! Voer uw Geboortedatum opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto Geboortedatum;
                 }
 
                 // als het verschil met vandaag en de opgegeven datum groter is dan 106 jaar, geven we een fout weer
                 if (DateTime.Today.Subtract(fixedDate1).TotalDays / 365.2425 > 106)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Leeftijd is onlogisch! Voer uw Geboortedatum opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto Geboortedatum;
                 }
             Telefoonnummer:
@@ -132,9 +134,9 @@ namespace Reservering
                 // als het opgegeven telefoonnummer niet geldig is 10 nummers, wordt er een fout weergegeven
                 if (!new PhoneAttribute().IsValid(phone) || phone.Length != 10)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Onjuiste telefoonnummer! Voer uw phone opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto Telefoonnummer;
                 }
 
@@ -145,9 +147,9 @@ namespace Reservering
                 // als het wachtwoord korter is dan 6 tekens, geven we een fout weer
                 if (password1.Length < 6)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Te korte wachtwoord! Voer uw wachtwoord opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto Wachtwoord;
                 }
 
@@ -158,9 +160,9 @@ namespace Reservering
                 // als het herhaalde wachtwoord niet hetzelfde is als het oorspronkelijke wachtwoord, geven we een fout weer
                 if (password1 != repeatedPassword)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Wachtwoorden zijn niet hetzelfde! Voer uw herhaal wachtwoord opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto Herhaal_Wachtwoord;
                 }
                 Console.WriteLine();
@@ -168,16 +170,16 @@ namespace Reservering
                 // Als de poging om te registreren mislukt, vanwege hetzelfde e-mailadres als het e-mailadres van bestaande accounts, geven we een fout weer
                 if (!LoginSystem.Register(email1, naam, Achternaam, fixedDate1, phone, password1))
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Een account met dit e-mailadres bestaat al!");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     return;
                 }
 
                 // als de registratiepoging succesvol is, wordt er een bericht over weergegeven
-                Console.BackgroundColor = ConsoleColor.Green;
-                Console.WriteLine("Succesvol geregistreerd!");
-                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("\nSuccesvol geregistreerd!\n");
+                Console.ResetColor();
                 Hoofdmenu();
                 return;
             }
@@ -204,15 +206,19 @@ namespace Reservering
                     // wordt er een fout weergegeven
                     if (!LoginSystem.Login(email, password2))
                     {
-                        Console.BackgroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Onjuiste inloggegevens!");
-                        Console.BackgroundColor = ConsoleColor.Black;
+                        Console.ResetColor();
                         poging--;
 
 
                         if (poging == 0)
-                            Console.WriteLine("Inlogpogingen zijn uitgeput.");
-                        goto Email;
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("\nInlogpogingen zijn uitgeput.");
+                            Console.ResetColor();
+                            goto Email;
+                        }
                     }
 
 
@@ -220,13 +226,13 @@ namespace Reservering
                     {
                         // Als de inlogpoging succesvol is, wordt er een bericht over weergegeven
                         poging = 0;
-                        Console.BackgroundColor = ConsoleColor.Green;
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Succesvol ingelogd!\n");
-                        Console.BackgroundColor = ConsoleColor.Black;
+                        Console.ResetColor();
                         //return;
+                        Hoofdmenu();
                     }
                 }
-                Hoofdmenu();
                 return;
             }
             else if (Start1 == "3")
@@ -241,39 +247,41 @@ namespace Reservering
                 if (!DateTime.TryParse(birthDate2, out DateTime fixedDate2) || fixedDate2 >= DateTime.Today)
 
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Onjuiste datum! Voer uw Geboortedatum opnieuw in.");
+                    Console.ResetColor();
                     goto date2;
                 }
 
                 // als het verschil met vandaag en de opgegeven datum kleiner is dan 16 jaar, geven we een fout weer
                 if (DateTime.Today.Subtract(fixedDate2).TotalDays / 365.2425 < 16)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine($"Je bent {Math.Floor(DateTime.Today.Subtract(fixedDate2).TotalDays / 365.24)} jaar." +
                                    $"Je moet 16 jaar oud zijn om als gast binnen te komen! Voer uw Geboortedatum opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto date2;
                 }
                 // als het verschil met vandaag en de opgegeven datum groter is dan 106 jaar, geven we een fout weer
                 if (DateTime.Today.Subtract(fixedDate2).TotalDays / 365.2425 > 106)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Leeftijd is onlogisch! Voer uw Geboortedatum opnieuw in.");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto date2;
                 }
 
                 // als de gebruiker ten minste 16 jaar oud is, geven we aan dat hij succesvol als gast is binnengekomen
-                Console.BackgroundColor = ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Je kwam binnen als een gast.\n");
-                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ResetColor();
                 Hoofdmenu();
                 return;
 
             }
             else if (Start1 == "4")
             {
-                
+
                 // informatie weergeven over werkuren en contact met restaurant
                 Console.WriteLine();
                 Console.WriteLine("\nInformatie");
@@ -286,8 +294,10 @@ namespace Reservering
                 Console.WriteLine("  >> 010-1234567");
                 Console.WriteLine("  >> RestaurantProjectB@gmail.com");
                 Console.WriteLine("  >> Wijnhaven 107, 3011 WN Rotterdam");
-              Info:
+            Info:
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("\nKlik op een ster om terug naar het hoofdmenu.");
+                Console.ResetColor();
                 string go_start = Console.ReadLine();
                 if (go_start == "*")
                 {
@@ -304,11 +314,9 @@ namespace Reservering
             else
             {
                 // als de ingevoerd nummer niet 1 of 2 of 3 of 4 is, geven we een fout weer
-                
+
                 goto Start_point;
             }
-
-
 
 
 
@@ -382,12 +390,20 @@ namespace Reservering
                     if (DateTime.TryParse(Console.ReadLine(), out BookingDate)) //converten naar daytime object
                     {
                         DateTime cd = DateTime.Now; //huidige date
-                        if ((cd - BookingDate).TotalDays > 0) //als huidige of eerdere datum is ingevuld
-                            Console.WriteLine("Onjuiste reserverings datum.");
-                        else if ((BookingDate - cd).TotalDays > 90) //als een datum is ingevuld dat meer dan 90 dagen verder is
-                            Console.WriteLine("U kunt alleen tot 90 dagen vooraf reserveren.");
-                        else //als datum goed is dan break
-                            break;
+                    if ((cd - BookingDate).TotalDays > 0) //als huidige of eerdere datum is ingevuld
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Onjuiste reserverings datum.");
+                        Console.ResetColor();
+                    }
+                    else if ((BookingDate - cd).TotalDays > 90) //als een datum is ingevuld dat meer dan 90 dagen verder is
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("U kunt alleen tot 90 dagen vooraf reserveren.");
+                        Console.ResetColor();
+                    }
+                    else //als datum goed is dan break
+                        break;
                     }
                 }
 
@@ -505,76 +521,88 @@ namespace Reservering
                 while (true)
                 {
                     Console.WriteLine("Kies welke tafel u wilt hebben: ");
-                    if (!Int32.TryParse(Console.ReadLine(), out ttr)) //als gebruiker een foute waarde geeft
-                        Console.WriteLine("Ongeldige tafel nummer.");
+                if (!Int32.TryParse(Console.ReadLine(), out ttr)) //als gebruiker een foute waarde geeft
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Ongeldige tafel nummer.");
+                    Console.ResetColor();
+                }
+                else
+                {
+                    //check of het een geldige tafel nummer is
+                    if (!(ttr >= 1 && ttr <= 16))
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("\nOngeldige tafel nummer.");
+                        Console.ResetColor();
+                    }
                     else
                     {
-                        //check of het een geldige tafel nummer is
-                        if (!(ttr >= 1 && ttr <= 16))
-                            Console.WriteLine("Ongeldige tafel nummer.");
+                        //check of de tafel al bezet is
+                        bool reserved = false;
+                        for (int row = 0; row <= 3; row++)
+                        {
+                            for (int col = 0; col <= 3; col++)
+                            {
+                                Booking cb = Tables[row, col];
+                                if (cb.TableNo == ttr && cb.BookingDateTime.Year != 1)
+                                {
+                                    reserved = true;
+                                    break;
+                                }
+                            }
+                            if (reserved)
+                                break;
+                        }
+
+                        if (reserved)
+                            Console.WriteLine("\nDeze tafel is bezet.");
                         else
                         {
-                            //check of de tafel al bezet is
-                            bool reserved = false;
-                            for (int row = 0; row <= 3; row++)
+                        name:
+                            Console.WriteLine("Onder welke naam wilt u reserveren? ");
+                            name = Console.ReadLine();
+                            if (!name.All(char.IsLetter))
                             {
-                                for (int col = 0; col <= 3; col++)
-                                {
-                                    Booking cb = Tables[row, col];
-                                    if (cb.TableNo == ttr && cb.BookingDateTime.Year != 1)
-                                    {
-                                        reserved = true;
-                                        break;
-                                    }
-                                }
-                                if (reserved)
-                                    break;
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("Een naam mag alleen letters bevatten! Voer uw naam opnieuw in.");
+                                Console.ResetColor();
+                                goto name;
+                            }
+                            if (name.Length < 2)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("Te korte naam! Voer uw naam opnieuw in.");
+                                Console.ResetColor();
+                                goto name;
                             }
 
-                            if (reserved)
-                                Console.WriteLine("Deze tafel is bezet.");
-                            else
+                        howmanypeople:
+                            Console.WriteLine("Voor hoeveel personen wilt u reserveren? ");
+                            personen = Console.ReadLine();
+                            if (personen == "1" || personen == "2" || personen == "3" || personen == "4" || personen == "5" || personen == "6" || personen == "7" || personen == "8")
                             {
-                            name:
-                                Console.WriteLine("Onder welke naam wilt u reserveren? ");
-                                name = Console.ReadLine();
-                                if (!name.All(char.IsLetter))
-                                {
-                                    Console.WriteLine("Een naam mag alleen letters bevatten! Voer uw naam opnieuw in.");
-                                    goto name;
-                                }
-                                if (name.Length < 2)
-                                {
-                                    Console.WriteLine("Te korte naam! Voer uw naam opnieuw in.");
-                                    goto name;
-                                }
-
-                            howmanypeople:
-                                Console.WriteLine("Voor hoeveel personen wilt u reserveren? ");
-                                personen = Console.ReadLine();
-                                if (personen == "1" || personen == "2" || personen == "3" || personen == "4" || personen == "5" || personen == "6" || personen == "7" || personen == "8")
-                                {
-                                    int x = Int32.Parse(personen);
-                                    if (x <= 0 || x > 8)
-                                    {
-                                        Console.WriteLine("\nVul een waarde tussen 1 en 8 in,\nals u wilt reserveren voor meer dan 8 personen, neem dan contact met ons op.");
-                                        goto howmanypeople;
-                                    }
-                                    else
-                                    {
-                                        break;
-                                    }
-                                }
-                                else
+                                int x = Int32.Parse(personen);
+                                if (x <= 0 || x > 8)
                                 {
                                     Console.WriteLine("\nVul een waarde tussen 1 en 8 in,\nals u wilt reserveren voor meer dan 8 personen, neem dan contact met ons op.");
                                     goto howmanypeople;
                                 }
-
-
+                                else
+                                {
+                                    break;
+                                }
                             }
+                            else
+                            {
+                                Console.WriteLine("\nVul een waarde tussen 1 en 8 in,\nals u wilt reserveren voor meer dan 8 personen, neem dan contact met ons op.");
+                                goto howmanypeople;
+                            }
+
+
                         }
                     }
+                }
                 }
 
                 //sla op in json
@@ -583,8 +611,9 @@ namespace Reservering
                 newBookingToSave.aantalpersonen = personen;
                 bookings.Add(newBookingToSave);
                 File.WriteAllText(file, JsonConvert.SerializeObject(bookings));
-                Console.WriteLine("Reservering opgeslagen.");
-
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("\nReservering opgeslagen.");
+                Console.ResetColor();
 
                // Console.ReadKey();
                 Betalen();
