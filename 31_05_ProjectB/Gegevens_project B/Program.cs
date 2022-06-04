@@ -196,6 +196,14 @@ namespace Reservering
                 {
                     Console.Write("E-mail: ");
                     string email = Console.ReadLine()!;
+                    // Als e-mail niet geldig is, geven we een fout weer
+                    if (!new EmailAddressAttribute().IsValid(email))
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Onjuiste e-mail! Voer uw e-mail opnieuw in.");
+                        Console.ResetColor();
+                        goto Email;
+                    }
 
                     // Lezen input
                     Console.Write("Wachtwoord: ");
@@ -215,7 +223,7 @@ namespace Reservering
                         if (poging == 0)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("\nInlogpogingen zijn uitgeput.");
+                            Console.WriteLine("\nInlogpogingen zijn uitgeput. Tot ziens!");
                             Console.ResetColor();
                             goto Email;
                         }
