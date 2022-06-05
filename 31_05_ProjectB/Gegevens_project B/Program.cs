@@ -824,6 +824,7 @@ namespace Reservering
         {
             static void Laat_gerechten_zien()
             {
+                // Maakt een list van Alle Gerechten
                 var alle_gerechten = new List<Alle_gerechten>
                             {
                                 new Alle_gerechten()
@@ -996,7 +997,7 @@ namespace Reservering
                                 },
                             };
                 Console.Clear();
-
+                // serialize de list en maakt er een json file van
                 var GerechtenJson = JsonConvert.SerializeObject(alle_gerechten);
                 File.WriteAllText(@"Alle_gerechten.json", GerechtenJson);
 
@@ -1017,7 +1018,7 @@ namespace Reservering
                 for (int i = 0; i < Length; i++) { Zijkant += character; }
                 return Zijkant;
             }
-
+                // beginscherm bij het menu , gebruiker kan uit 2 keuzes nemen
         Begin: Console.WriteLine("Menukaart \n");
             Console.WriteLine(" Kies [1] voor de Menu");
             Console.WriteLine(" Kies [2] voor een keuze maken \n\n ");
@@ -1027,7 +1028,7 @@ namespace Reservering
 
 
             string a = Console.ReadLine();
-
+            // kijkt of de gebruiker een intreger invult
             if (!int.TryParse(a, out int value))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -1037,6 +1038,7 @@ namespace Reservering
             }
             else
             {
+                
                 int Choose_nummer = Convert.ToInt32(a);
 
                 if (Choose_nummer == 1)
