@@ -292,21 +292,13 @@ namespace Reservering
             else if (Start1 == "4")
             {
 
-                // informatie weergeven over werkuren en contact met restaurant
-                Console.WriteLine();
-                Console.WriteLine("\nInformatie");
-                Console.WriteLine();
-                Console.WriteLine("  Openingstijden:");
-                Console.WriteLine("  >> ma-vr 10:00-22:00");
-                Console.WriteLine("  >> za/zo 12:00-24:00");
-                Console.WriteLine();
-                Console.WriteLine("  Contact:");
-                Console.WriteLine("  >> 010-1234567");
-                Console.WriteLine("  >> RestaurantProjectB@gmail.com");
-                Console.WriteLine("  >> Wijnhaven 107, 3011 WN Rotterdam");
+                var Contactgegevens = Tuple.Create("  Openingstijden:", "  >> ma-vr 10:00-20:00", "  >> za/zo 11:30-20:00", "  >> 010-1234567", "  >> RestaurantProjectB@gmail.com", "  >> Wijnhaven 107, 3011 WN Rotterdam", "\nKlik op een ster om terug naar het hoofdmenu.");
+                Console.WriteLine($"\nInformatie \n\n{ Contactgegevens.Item1}\n{ Contactgegevens.Item2}\n{ Contactgegevens.Item3}\n");
+                Console.WriteLine($"  Contact: \n{ Contactgegevens.Item4}\n{ Contactgegevens.Item5}\n{ Contactgegevens.Item6}");
+
             Info:
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("\nKlik op een ster om terug naar het hoofdmenu.");
+                Console.WriteLine($"\n  [*] Terug");
                 Console.ResetColor();
                 string go_start = Console.ReadLine();
                 if (go_start == "*")
@@ -356,15 +348,18 @@ namespace Reservering
                         Console.Clear();
                         goto Startpoint;
                     }
-                    else { Console.WriteLine("Klik op een ster om terug naar het hoofdmenu."); }
+                    else { Console.WriteLine($"\n  [*] Terug"); }
                 }
 
                 else if (Start == "3")
                 {
                     Console.Clear(); ;
-                    Console.WriteLine("Openingstijden: maandag t/m vrijdag 10:00-22:00. \n\t\tweekend 12:00-24:00\n\nContact: telefoonnummer; 070 34 24818." +
-                                      "\n\nAdres: Wijnhaven 107, 8518KA, Rotterdam \n\nKlik op een ster om terug naar het hoofdmenu\n");
-                   Vraag:
+                    var Contactgegevens = Tuple.Create("  Openingstijden:", "  >> ma-vr 10:00-20:00", "  >> za/zo 11:30-20:00", "  >> 010-1234567", "  >> RestaurantProjectB@gmail.com", "  >> Wijnhaven 107, 3011 WN Rotterdam", "\nKlik op een ster om terug naar het hoofdmenu.");
+                    Console.WriteLine($"\nInformatie \n\n{ Contactgegevens.Item1}\n{ Contactgegevens.Item2}\n{ Contactgegevens.Item3}\n");
+                    Console.WriteLine($"  Contact: \n{ Contactgegevens.Item4}\n{ Contactgegevens.Item5}\n{ Contactgegevens.Item6}");
+                    Console.WriteLine($"\n  [*] Terug");
+                
+                Vraag:
                     string gostart = Console.ReadLine();
                     if (gostart == "*")
                     {
@@ -374,7 +369,7 @@ namespace Reservering
                     else 
                     {
                         Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.WriteLine("Klik op een ster om terug naar het hoofdmenu.");
+                        Console.WriteLine($"\n  [*] Terug");
                         Console.ResetColor();
                         goto Vraag;
                     }
@@ -1045,7 +1040,10 @@ namespace Reservering
                 {
                 Vier:
                     Laat_gerechten_zien();
-                    Console.WriteLine("Type * om terug te gaan");
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine($"\n [*] Terug");
+                    Console.ResetColor();
+
                     string Back = Console.ReadLine();
                     if (Back == "*")
                     {

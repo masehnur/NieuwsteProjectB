@@ -115,5 +115,14 @@
     "GeboorteDatum": "2000-05-12",
     "TelefoonNummer": "1231231230",
     "Wachtwoord": "02580258"
+  },
+  {
+    "ID": 13,
+    "Email": "akwkwmn@gmail.com",
+    "Naam": "jan",
+    "Achternaam": "weillem",
+    "GeboorteDatum": "2001-01-10",
+    "TelefoonNummer": "0654003021",
+    "Wachtwoord": "kippie"
   }
 ]
