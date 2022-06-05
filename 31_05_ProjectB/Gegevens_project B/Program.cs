@@ -427,11 +427,11 @@ namespace Reservering
                         tsOpenTime = new TimeSpan(11, 30, 0);
 
                     //laat de dag van de week zien en de openings en sluitingstijden
-                    Console.WriteLine("Datum dag: " + bookingDOW.ToString());
+                    Console.WriteLine("\nDatum dag: " + bookingDOW.ToString());
                     Console.WriteLine("Openingstijden: " + tsOpenTime.Hours + ":" + tsOpenTime.Minutes);
                     Console.WriteLine("Sluitingstijden: " + tsCloseTime.Hours + ":" + tsCloseTime.Minutes);
                     //vraag om de reserveringstijd
-                    Console.WriteLine("Kies uw reserveringstijd: ");
+                    Console.WriteLine("\nKies uw reserveringstijd (uu:mm): ");
                     string strBTime = Console.ReadLine();
                     //check of het een geldige tijd is
                     bool valid = false;
@@ -656,7 +656,9 @@ namespace Reservering
                 if (wanneer == Achteraf)
                 {
                     // wanneer achteraf wordt gekozen
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("\nU kunt achteraf met VISA, Mastercard, Ideal of contant betalen.");
+                    Console.ResetColor();
                     break;
                 }
                 if (wanneer == Vooraf)
@@ -678,7 +680,7 @@ namespace Reservering
                             if (bevestig == "1")
                             {
                                 Console.ForegroundColor = ConsoleColor.Green;
-                                Console.WriteLine("\nBedankt voor uw betaling, tot ziens!");
+                                Console.WriteLine("\nBedankt voor uw betaling.\n Tot ziens!");
                                 Console.ResetColor();
 
                             }
@@ -760,7 +762,9 @@ namespace Reservering
                                 }
                                 if ((pin.ToString()).Length != 3)
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.Write("De ingevoerde CVC moet uit drie getallen bestaan. Probeer nogmaals.\n");
+                                    Console.ResetColor();
                                 }
                                 else
                                 {
@@ -773,7 +777,7 @@ namespace Reservering
                             if (bevestig == "1")
                             {
                                 Console.ForegroundColor = ConsoleColor.Green;
-                                Console.WriteLine("\nBedankt voor uw betaling, tot ziens!");
+                                Console.WriteLine("\nBedankt voor uw betaling.\n Tot ziens!");
                                 Console.ResetColor();
                             }
                             else if (bevestig == "2")
@@ -807,9 +811,6 @@ namespace Reservering
         #endregion 5
         //menu
         #region 6
-        
-
-
 
         static void Menu()
         {
@@ -1000,7 +1001,7 @@ namespace Reservering
 
                 }
             }
-            
+
             static string TekenString(int Length, string character)
             {
 
@@ -1009,72 +1010,72 @@ namespace Reservering
                 return Zijkant;
             }
 
-            Begin: Console.WriteLine("Menukaart \n");
+        Begin: Console.WriteLine("Menukaart \n");
             Console.WriteLine(" Kies [1] voor de Menu");
             Console.WriteLine(" Kies [2] voor een keuze maken \n\n ");
-                
-            dot: Console.WriteLine("\n\n\n");
-                Console.WriteLine("Type een nummer in : ");
+
+        dot: Console.WriteLine("\n\n\n");
+            Console.WriteLine("Type een nummer in : ");
 
 
-                string a = Console.ReadLine();
+            string a = Console.ReadLine();
 
-                if (!int.TryParse(a, out int value))
+            if (!int.TryParse(a, out int value))
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n Probeer het opnieuw , vul een nummer in");
+                Console.ResetColor();
+                goto dot;
+            }
+            else
+            {
+                int Choose_nummer = Convert.ToInt32(a);
+
+                if (Choose_nummer == 1)
                 {
-                  Console.ForegroundColor = ConsoleColor.Red;
-                  Console.WriteLine("\n Probeer het opnieuw , vul een nummer in");
-                  Console.ResetColor();
-                    goto dot;
-                }
-                else
-                {
-                    int Choose_nummer = Convert.ToInt32(a);
-                   
-                    if (Choose_nummer == 1)
+                Vier:
+                    Laat_gerechten_zien();
+                    Console.WriteLine("Type b om terug te gaan");
+                    string Back = Console.ReadLine();
+                    if (Back == "b")
                     {
-                        Vier:
-                        Laat_gerechten_zien();
-                        Console.WriteLine("Type b om terug te gaan");
-                        string Back = Console.ReadLine();
-                        if (Back == "b")
-                        {
-                            Console.Clear();
-                            goto Begin;
-                        }
-                        else
-                        {
-                            goto Vier;
-                        }
+                        Console.Clear();
+                        goto Begin;
                     }
-                    else if (Choose_nummer == 2)
+                    else
                     {
+                        goto Vier;
+                    }
+                }
+                else if (Choose_nummer == 2)
+                {
 
                 vijf:
                     Console.Clear();
-                        // Hij opent de text file leest alle file in een string en sluit de file
-                        
-                        var json1 = "./Gerechten_kiezen.json";
-                        string Gerechten_lezen = File.ReadAllText(json1);
-                        // toegang tot je file deserialize.
-                        var d = JsonConvert.DeserializeObject<Gerechten_kiezen>(Gerechten_lezen);
+                    // Hij opent de text file leest alle file in een string en sluit de file
 
-                        double Totaalprijs = 0;
-                        string Overzicht_Gerechten = "";
-                        Laat_gerechten_zien();
-                        Terug_naar_Nummer_1:
-                        Console.WriteLine("\nVul een gerecht nummer in :");
-                        Terug_naar_Nummer:
-                        string Kiesnummer_1 = Console.ReadLine();
-                        
-                        Totaal_Bedrag totaalbedrag = new Totaal_Bedrag()
-                        {
-                            Gekozen_Gerechten = Overzicht_Gerechten,
-                            Gekozen_Prijzen = Totaalprijs
-                        };
-                        string strResulJson = JsonConvert.SerializeObject(totaalbedrag);
-                            
-                        File.WriteAllText("./Totaalbedrag.json", strResulJson);
-                    
+                    var json1 = "./Gerechten_kiezen.json";
+                    string Gerechten_lezen = File.ReadAllText(json1);
+                    // toegang tot je file deserialize.
+                    var d = JsonConvert.DeserializeObject<Gerechten_kiezen>(Gerechten_lezen);
+
+                    double Totaalprijs = 0;
+                    string Overzicht_Gerechten = "";
+                    Laat_gerechten_zien();
+                Terug_naar_Nummer_1:
+                    Console.WriteLine("\nVul een gerecht nummer in :");
+                Terug_naar_Nummer:
+                    string Kiesnummer_1 = Console.ReadLine();
+
+                    Totaal_Bedrag totaalbedrag = new Totaal_Bedrag()
+                    {
+                        Gekozen_Gerechten = Overzicht_Gerechten,
+                        Gekozen_Prijzen = Totaalprijs
+                    };
+                    string strResulJson = JsonConvert.SerializeObject(totaalbedrag);
+
+                    File.WriteAllText("./Totaalbedrag.json", strResulJson);
+
                     if (Kiesnummer_1 == "ja")
                     {
                         Reserveren();
@@ -1472,19 +1473,22 @@ namespace Reservering
                     }
 
                 }
-                    else
-                    {
+                else
+                {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\n  Nummer mislukt,  Kies tussen de nummers [1] , [2] -, [3] - [4] - [5]");
                     Console.ResetColor();
-                        goto dot;
-                    }
-        
-        
+                    goto dot;
+                }
+
+
             }
+        }
+
+        
         #endregion 6
         #endregion 0
-        }
     }
 }
+
 

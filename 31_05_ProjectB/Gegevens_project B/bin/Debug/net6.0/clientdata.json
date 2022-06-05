@@ -106,5 +106,14 @@
     "GeboorteDatum": "2001-01-01",
     "TelefoonNummer": "0000000000",
     "Wachtwoord": "444455"
+  },
+  {
+    "ID": 12,
+    "Email": "jasper76@live.nl",
+    "Naam": "Jasper",
+    "Achternaam": "Ophuis",
+    "GeboorteDatum": "2000-05-12",
+    "TelefoonNummer": "1231231230",
+    "Wachtwoord": "02580258"
   }
 ]
