@@ -362,21 +362,29 @@ namespace Reservering
                 else if (Start == "3")
                 {
                     Console.Clear(); ;
-                    Console.WriteLine("Openingstijden: maandag t/m vrijdag 10:00-22:00. \nweekend 12:00-24:00\n\nContact: telefoonnummer; 070 34 24818.\n\nAdres: Wijnhaven 107, 8518KA, Rotterdam \n\nKlik op een ster om terug naar het hoofdmenu\n");
+                    Console.WriteLine("Openingstijden: maandag t/m vrijdag 10:00-22:00. \n\t\tweekend 12:00-24:00\n\nContact: telefoonnummer; 070 34 24818." +
+                                      "\n\nAdres: Wijnhaven 107, 8518KA, Rotterdam \n\nKlik op een ster om terug naar het hoofdmenu\n");
+                   Vraag:
                     string gostart = Console.ReadLine();
                     if (gostart == "*")
                     {
                         Console.Clear();
                         goto Startpoint;
                     }
-                    else { Console.WriteLine("Klik op een ster om terug naar het hoofdmenu."); }
+                    else 
+                    {
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        Console.WriteLine("Klik op een ster om terug naar het hoofdmenu.");
+                        Console.ResetColor();
+                        goto Vraag;
+                    }
                 }
                 else
                 {
 
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\nU heeft een ongeldige waarde ingetypt.\n");
-                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.ResetColor();
                     goto Startpoint;
 
                 }
