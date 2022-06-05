@@ -1043,9 +1043,9 @@ namespace Reservering
                 {
                 Vier:
                     Laat_gerechten_zien();
-                    Console.WriteLine("Type b om terug te gaan");
+                    Console.WriteLine("Type * om terug te gaan");
                     string Back = Console.ReadLine();
-                    if (Back == "b")
+                    if (Back == "*")
                     {
                         Console.Clear();
                         goto Begin;
