@@ -2,6 +2,7 @@
 using Gegevens;
 using System.ComponentModel.DataAnnotations;
 using System;
+using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -46,11 +47,12 @@ namespace Reservering
                 if (!new EmailAddressAttribute().IsValid(email1))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Onjuiste e-mail! Voer uw e-mail opnieuw in.");
-                    Console.ResetColor();
-                    goto email;
-                }
+                      Console.WriteLine("Onjuiste e-mail! Voer uw e-mail opnieuw in.");
+                      Console.ResetColor();
+                      goto email;
+                  }
 
+               
             naam:
                 Console.Write("\nNaam: ");
                 string naam = Console.ReadLine()!;
@@ -528,7 +530,7 @@ namespace Reservering
                 string personen = "";
                 while (true)
                 {
-                    Console.WriteLine("Kies welke tafel u wilt hebben: ");
+                    Console.WriteLine("\nKies welke tafel u wilt hebben: ");
                 if (!Int32.TryParse(Console.ReadLine(), out ttr)) //als gebruiker een foute waarde geeft
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -593,7 +595,9 @@ namespace Reservering
                                 int x = Int32.Parse(personen);
                                 if (x <= 0 || x > 8)
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine("\nVul een waarde tussen 1 en 8 in,\nals u wilt reserveren voor meer dan 8 personen, neem dan contact met ons op.");
+                                    Console.ResetColor();
                                     goto howmanypeople;
                                 }
                                 else
@@ -603,7 +607,9 @@ namespace Reservering
                             }
                             else
                             {
+                                Console.ForegroundColor = ConsoleColor.Red;
                                 Console.WriteLine("\nVul een waarde tussen 1 en 8 in,\nals u wilt reserveren voor meer dan 8 personen, neem dan contact met ons op.");
+                                Console.ResetColor();
                                 goto howmanypeople;
                             }
 
@@ -671,7 +677,10 @@ namespace Reservering
 
                             if (bevestig == "1")
                             {
+                                Console.ForegroundColor = ConsoleColor.Green;
                                 Console.WriteLine("\nBedankt voor uw betaling, tot ziens!");
+                                Console.ResetColor();
+
                             }
 
                             else if (bevestig == "*")
@@ -686,7 +695,9 @@ namespace Reservering
 
                         else
                         {
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("\nVerkeerde input, probeer nogmaals.");
+                            Console.ResetColor();
                             page = 0;
                         }
 
@@ -707,7 +718,9 @@ namespace Reservering
                             {
                                 while (!double.TryParse(Console.ReadLine(), out cardNumber))
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.Write("\nVoer alleen nummers in. Probeer nogmaals.\n");
+                                    Console.ResetColor();
                                 }
                                 if ((cardNumber.ToString()).Length != 16)
                                 {
@@ -741,7 +754,9 @@ namespace Reservering
                             {
                                 while (!double.TryParse(Console.ReadLine(), out pin))
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.Write("Voer alleen nummers in. Probeer nogmaals.\n");
+                                    Console.ResetColor();
                                 }
                                 if ((pin.ToString()).Length != 3)
                                 {
@@ -757,7 +772,9 @@ namespace Reservering
                             var bevestig = Console.ReadLine();
                             if (bevestig == "1")
                             {
+                                Console.ForegroundColor = ConsoleColor.Green;
                                 Console.WriteLine("\nBedankt voor uw betaling, tot ziens!");
+                                Console.ResetColor();
                             }
                             else if (bevestig == "2")
                             {
@@ -771,13 +788,17 @@ namespace Reservering
                     }
                     else
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("\nVerkeerde input, probeer nogmaals.");
+                        Console.ResetColor();
                         page = 0;
                     }
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\nVerkeerde input, probeer nogmaals.");
+                    Console.ResetColor();
                     page = 0;
                 }
             }
@@ -1000,7 +1021,9 @@ namespace Reservering
 
                 if (!int.TryParse(a, out int value))
                 {
-                    Console.WriteLine("\n Probeer het opnieuw , vul een nummer in");
+                  Console.ForegroundColor = ConsoleColor.Red;
+                  Console.WriteLine("\n Probeer het opnieuw , vul een nummer in");
+                  Console.ResetColor();
                     goto dot;
                 }
                 else
@@ -1058,7 +1081,9 @@ namespace Reservering
                     }
                     else if (!int.TryParse(Kiesnummer_1, out int nummer))
                     {
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("\n Probeer het opnieuw , vul een nummer in");
+                        Console.ResetColor();
                         goto Terug_naar_Nummer_1;
                     }
                     else
@@ -1438,7 +1463,9 @@ namespace Reservering
                         }
                         else
                         {
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("Kies tussen de nummers 1 en 28 !!!!");
+                            Console.ResetColor();
                             goto Terug_naar_Nummer_1;
                         }
 
@@ -1447,7 +1474,9 @@ namespace Reservering
                 }
                     else
                     {
-                        Console.WriteLine("\n  Nummer mislukt,  Kies tussen de nummers [1] , [2] -, [3] - [4] - [5]");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\n  Nummer mislukt,  Kies tussen de nummers [1] , [2] -, [3] - [4] - [5]");
+                    Console.ResetColor();
                         goto dot;
                     }
         
