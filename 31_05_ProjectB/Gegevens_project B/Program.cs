@@ -137,7 +137,7 @@ namespace Reservering
                 if (!new PhoneAttribute().IsValid(phone) || phone.Length != 10)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Onjuiste telefoonnummer! Voer uw phone opnieuw in.");
+                    Console.WriteLine("Onjuist telefoonnummer! Voer uw telefoonnummer opnieuw in.");
                     Console.ResetColor();
                     goto Telefoonnummer;
                 }
@@ -438,7 +438,7 @@ namespace Reservering
                     Console.WriteLine("Openingstijden: " + tsOpenTime.Hours + ":" + tsOpenTime.Minutes);
                     Console.WriteLine("Sluitingstijden: " + tsCloseTime.Hours + ":" + tsCloseTime.Minutes);
                     //vraag om de reserveringstijd
-                    Console.WriteLine("\nKies uw reserveringstijd (uu:mm): ");
+                    Console.WriteLine("\nLet op u kunt niet na 18:30 reserveren, kies uw reserveringstijd (uu:mm): ");
                     string strBTime = Console.ReadLine();
                     //check of het een geldige tijd is
                     bool valid = false;

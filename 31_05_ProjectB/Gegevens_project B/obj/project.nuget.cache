@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jNRIFr/d5cwMLXzKPZidyF3mNCTZrbsgpxPFIgFs8v2OXKtxJiGg7v5N6WJQJXS8SSVSVG6hYq2HSc6BjRYW7A==",
+  "dgSpecHash": "Fw7uDGy6ZKQs052DUH4hrHngx/HwiNQ2gCerIius8xFWwuLn7BTBWazrkjI3NB/EGZt8io4XSVsdcRwEHjXKMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kangb\\source\\repos\\NieuwsteProjectB\\New folder\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
+  "projectFilePath": "C:\\Users\\maseh\\Source\\Repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kangb\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\maseh\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
