@@ -331,7 +331,7 @@ namespace Reservering
             {
 
             Startpoint: Console.WriteLine("\n****Hoofdmenu****\n");
-                //334 line verwisselt
+                
                 Console.WriteLine("1- Reserveren. \n2- Reserveren en vooraf bestellen. \n3- algemene informatie.\n\n-Voer een van de bovenstaande nummers in: \n ");
                 string Start ;
                 Start = Console.ReadLine();
