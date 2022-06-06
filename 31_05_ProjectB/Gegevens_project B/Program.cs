@@ -92,7 +92,7 @@ namespace Reservering
                 if (!Achternaam.All(char.IsLetter))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Een achternaam mag alleen letters bevatten! Voer uw naam opnieuw in.");
+                    Console.WriteLine("Een achternaam mag alleen letters bevatten! Voer uw achternaam opnieuw in.");
                     Console.ResetColor();
                     goto Achternaam;
                 }
@@ -189,7 +189,6 @@ namespace Reservering
             {
 
 
-                // case ConsoleKey.D2:
                 Console.WriteLine();
                 int poging = 3;
 
@@ -225,7 +224,8 @@ namespace Reservering
                         if (poging == 0)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("\nInlogpogingen zijn uitgeput.\nNeem contact op met het restaurant als u uw wachtwoord bent vergeten." +
+                            Console.WriteLine("\nInlogpogingen zijn uitgeput.\n" +
+                                "Neem contact op met het restaurant als u uw wachtwoord bent vergeten." +
                                 "\n\tTot ziens!");
                             Console.ResetColor();
                             goto Email;
@@ -293,7 +293,8 @@ namespace Reservering
             else if (Start1 == "4")
             {
 
-                var Contactgegevens = Tuple.Create("  Openingstijden:", "  >> ma-vr 10:00-20:00", "  >> za/zo 11:30-20:00", "  >> 010-1234567", "  >> RestaurantProjectB@gmail.com", "  >> Wijnhaven 107, 3011 WN Rotterdam", "\nKlik op een ster om terug naar het hoofdmenu.");
+                var Contactgegevens = Tuple.Create("  Openingstijden:", "  >> ma-vr 10:00-20:00", "  >> za/zo 11:30-20:00", "  >> 010-1234567", 
+                    "  >> RestaurantProjectB@gmail.com", "  >> Wijnhaven 107, 3011 WN Rotterdam", "\nKlik op een ster om terug naar het hoofdmenu.");
                 Console.WriteLine($"\nInformatie \n\n{ Contactgegevens.Item1}\n{ Contactgegevens.Item2}\n{ Contactgegevens.Item3}\n");
                 Console.WriteLine($"  Contact: \n{ Contactgegevens.Item4}\n{ Contactgegevens.Item5}\n{ Contactgegevens.Item6}");
 
@@ -392,6 +393,7 @@ namespace Reservering
         #region 4
             static void Reserveren()
             {
+                Console.Clear();
                 string file = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bookings.json"); //bestand naam en pad om json op te slaan
                 Booking[,] Tables = new Booking[4, 4]; //2D array
                 DateTime BookingDate = new DateTime(); //reserverings datum
