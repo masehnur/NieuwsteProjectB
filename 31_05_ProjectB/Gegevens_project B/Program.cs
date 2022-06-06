@@ -225,7 +225,8 @@ namespace Reservering
                         if (poging == 0)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.WriteLine("\nInlogpogingen zijn uitgeput. Tot ziens!");
+                            Console.WriteLine("\nInlogpogingen zijn uitgeput.\nNeem contact op met het restaurant als u uw wachtwoord bent vergeten." +
+                                "\n\tTot ziens!");
                             Console.ResetColor();
                             goto Email;
                         }
@@ -239,7 +240,7 @@ namespace Reservering
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Succesvol ingelogd!\n");
                         Console.ResetColor();
-                        //return;
+                       
                         Hoofdmenu();
                     }
                 }
