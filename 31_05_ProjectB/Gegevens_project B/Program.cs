@@ -24,7 +24,7 @@ namespace Reservering
             //menu/inloggen/registreren/verder als gast
             #region 1
 
-            // Menu weergeven
+            // Menu weergeven   Weeeelcom
             Console.Clear();
             Console.WriteLine("\t\t\t--<<<Welkom in ons restaurant>>>--\n");
             Console.WriteLine("\t\t 1 - Registeren");
