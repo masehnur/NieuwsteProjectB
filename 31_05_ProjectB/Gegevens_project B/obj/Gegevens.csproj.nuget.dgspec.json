@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maseh\\Source\\Repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj": {}
+    "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maseh\\Source\\Repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj": {
+    "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maseh\\Source\\Repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
+        "projectUniqueName": "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
         "projectName": "Gegevens",
-        "projectPath": "C:\\Users\\maseh\\Source\\Repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
-        "packagesPath": "C:\\Users\\maseh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maseh\\Source\\Repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\obj\\",
+        "projectPath": "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
+        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maseh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
