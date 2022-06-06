@@ -270,3 +270,20 @@ D:\coln6-6\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dl
 D:\coln6-6\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
 D:\coln6-6\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
 D:\coln6-6\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.exe
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.deps.json
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.runtimeconfig.json
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.AssemblyReference.cache
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfoInputs.cache
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.AssemblyInfo.cs
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CoreCompileInputs.cache
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.csproj.CopyComplete
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.dll
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\refint\Gegevens.dll
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.pdb
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\Gegevens.genruntimeconfig.cache
+C:\Users\kangb\source\repos\NieuwsteProjectB\New folder\31_05_ProjectB\Gegevens_project B\obj\Debug\net6.0\ref\Gegevens.dll

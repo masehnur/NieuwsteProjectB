@@ -142,5 +142,14 @@
     "GeboorteDatum": "1988-08-22",
     "TelefoonNummer": "0123123123",
     "Wachtwoord": "02580258"
+  },
+  {
+    "ID": 16,
+    "Email": "willem@gmail.com",
+    "Naam": "jan",
+    "Achternaam": "willem",
+    "GeboorteDatum": "2001-01-10",
+    "TelefoonNummer": "0640335722",
+    "Wachtwoord": "pokemon"
   }
 ]
