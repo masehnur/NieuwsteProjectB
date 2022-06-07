@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj": {}
+    "C:\\Users\\kangb\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj": {
+    "C:\\Users\\kangb\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
+        "projectUniqueName": "C:\\Users\\kangb\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
         "projectName": "Gegevens",
-        "projectPath": "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
-        "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ahmad\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\obj\\",
+        "projectPath": "C:\\Users\\kangb\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\Gegevens.csproj",
+        "packagesPath": "C:\\Users\\kangb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kangb\\source\\repos\\NieuwsteProjectB\\31_05_ProjectB\\Gegevens_project B\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kangb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
