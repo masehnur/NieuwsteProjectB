@@ -47,12 +47,12 @@ namespace Reservering
                 if (!new EmailAddressAttribute().IsValid(email1))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                      Console.WriteLine("Onjuiste e-mail! Voer uw e-mail opnieuw in.");
-                      Console.ResetColor();
-                      goto email;
-                  }
+                    Console.WriteLine("Onjuiste e-mail! Voer uw e-mail opnieuw in.");
+                    Console.ResetColor();
+                    goto email;
+                }
 
-               
+
             naam:
                 Console.Write("\nNaam: ");
                 string naam = Console.ReadLine()!;
@@ -240,7 +240,7 @@ namespace Reservering
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Succesvol ingelogd!\n");
                         Console.ResetColor();
-                       
+
                         Hoofdmenu();
                     }
                 }
@@ -293,7 +293,7 @@ namespace Reservering
             else if (Start1 == "4")
             {
 
-                var Contactgegevens = Tuple.Create("  Openingstijden:", "  >> ma-vr 10:00-20:00", "  >> za/zo 11:30-20:00", "  >> 010-1234567", 
+                var Contactgegevens = Tuple.Create("  Openingstijden:", "  >> ma-vr 10:00-20:00", "  >> za/zo 11:30-20:00", "  >> 010-1234567",
                     "  >> RestaurantProjectB@gmail.com", "  >> Wijnhaven 107, 3011 WN Rotterdam", "\nKlik op een ster om terug naar het hoofdmenu.");
                 Console.WriteLine($"\nInformatie \n\n{ Contactgegevens.Item1}\n{ Contactgegevens.Item2}\n{ Contactgegevens.Item3}\n");
                 Console.WriteLine($"  Contact: \n{ Contactgegevens.Item4}\n{ Contactgegevens.Item5}\n{ Contactgegevens.Item6}");
@@ -322,7 +322,7 @@ namespace Reservering
                 goto Start_point;
             }
 
-
+        }
 
             #endregion 1
             //hoofdmenu
@@ -387,7 +387,7 @@ namespace Reservering
 
                 }
             }
-        }
+        
         #endregion 2
 
         //reserveren
@@ -460,10 +460,14 @@ namespace Reservering
                         //check of de reserveringstijd valt binnen de openingstijden
                         TimeSpan tsBookingStart = new TimeSpan(BookingTime.Hour, BookingTime.Minute, 0);
                         TimeSpan tsBookingEnd = tsBookingStart.Add(new TimeSpan(1, 30, 0));
-                        if (!(tsBookingStart >= tsOpenTime && tsBookingStart <= tsCloseTime && tsBookingEnd >= tsOpenTime && tsBookingEnd <= tsCloseTime))
-                            Console.WriteLine("U kunt niet reserveren omdat de geselecteerde tijd niet binnen de openingstijden vallen.");
-                        else //als het goed is dan break
-                            break;
+                    if (!(tsBookingStart >= tsOpenTime && tsBookingStart <= tsCloseTime && tsBookingEnd >= tsOpenTime && tsBookingEnd <= tsCloseTime))
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("U kunt niet reserveren omdat de geselecteerde tijd niet binnen de openingstijden vallen.");
+                        Console.ResetColor();
+                    }
+                    else //als het goed is dan break
+                        break;
                     }
                 }
 
@@ -573,7 +577,11 @@ namespace Reservering
                         }
 
                         if (reserved)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("\nDeze tafel is bezet.");
+                            Console.ResetColor();
+                        }
                         else
                         {
                         name:
@@ -638,7 +646,7 @@ namespace Reservering
 
                // Console.ReadKey();
                 Betalen();
-               // Console.WriteLine("Druk op een toets om door te gaan.");
+               
         }
         
 
@@ -733,7 +741,9 @@ namespace Reservering
                                 }
                                 if ((cardNumber.ToString()).Length != 16)
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.Write("\nDe ingevoerde kaartnummer is geen 16 getallen. Probeer nogmaals.\n");
+                                    Console.ResetColor();
                                 }
                                 else
                                 {
@@ -746,11 +756,16 @@ namespace Reservering
                             {
                                 while (!DateTime.TryParseExact(Console.ReadLine(), "M-yyyy", null, System.Globalization.DateTimeStyles.None, out datum))
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.Write("\nAlleen een datum in het formaat MM-YYYY is toegestaan. Probeer nogmaals.\n");
+                                    Console.ResetColor();
+
                                 }
                                 if (((datum.Year < DateTime.Now.Year) || (datum.Year == DateTime.Now.Year) && (datum.Month < DateTime.Now.Month)) || (datum.Year > DateTime.Now.Year + 5) || (datum.Year >= DateTime.Now.Year + 5) && (datum.Month > DateTime.Now.Month))
                                 {
+                                    Console.ForegroundColor = ConsoleColor.Red;
                                     Console.Write("\nVoer alsjeblieft een geldig jaar en maand in. Probeer nogmaals.\n");
+                                    Console.ResetColor();
                                 }
 
                                 else
@@ -1088,7 +1103,7 @@ namespace Reservering
 
                     File.WriteAllText("./Totaalbedrag.json", strResulJson);
 
-                    if (Kiesnummer_1 == "ja")
+                    if (Kiesnummer_1 == "ja" || Kiesnummer_1 == "Ja")
                     {
                         Reserveren();
                     }
@@ -1485,6 +1500,7 @@ namespace Reservering
                     }
 
                 }
+              
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
