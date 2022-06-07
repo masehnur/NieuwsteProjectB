@@ -1504,7 +1504,7 @@ namespace Reservering
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\n  Nummer mislukt,  Kies tussen de nummers [1] , [2] -, [3] - [4] - [5]");
+                    Console.WriteLine("\n  Nummer mislukt,  Kies tussen de nummers [1] , [2]");
                     Console.ResetColor();
                     goto dot;
                 }
