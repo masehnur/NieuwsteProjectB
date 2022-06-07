@@ -36,22 +36,23 @@ namespace Reservering
             Console.ResetColor();
 
             // Sleutel invoer lezen
-            string Start1 = Console.ReadLine();
+            string Start1 = Console.ReadLine()!;
             if (Start1 == "1")
             {
             email:
-                Console.Write("\nE-mail: ");
-                string email1 = Console.ReadLine()!;
+             
+               // string email1 = Console.ReadLine()!;
 
-                // Als e-mail niet geldig is, geven we een fout weer
-                if (!new EmailAddressAttribute().IsValid(email1))
+                Console.Write("Enter Your Email: ");
+                string email1 = Console.ReadLine()!;
+                Regex reg = new Regex(@"^\w+([-_•]\w+)*@\w+([-•]\w+)*\.\w+([-.]\w+)*$");
+                if (! reg.IsMatch(email1))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Onjuiste e-mail! Voer uw e-mail opnieuw in.");
                     Console.ResetColor();
                     goto email;
                 }
-
 
             naam:
                 Console.Write("\nNaam: ");
@@ -150,7 +151,7 @@ namespace Reservering
                 if (password1.Length < 6)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Te korte wachtwoord! Voer uw wachtwoord opnieuw in.");
+                    Console.WriteLine("Te korte wachtwoord! Wachtwoord moet minimaal 6 tekens lang zijn. Voer uw wachtwoord opnieuw in.");
                     Console.ResetColor();
                     goto Wachtwoord;
                 }
@@ -302,7 +303,7 @@ namespace Reservering
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine($"\n  [*] Terug");
                 Console.ResetColor();
-                string go_start = Console.ReadLine();
+                string go_start = Console.ReadLine()!;
                 if (go_start == "*")
                 {
                     Console.Clear();
@@ -334,7 +335,7 @@ namespace Reservering
                 
                 Console.WriteLine("1- Reserveren. \n2- Reserveren en vooraf bestellen. \n3- algemene informatie.\n\n-Voer een van de bovenstaande nummers in: \n ");
                 string Start ;
-                Start = Console.ReadLine();
+                Start = Console.ReadLine()!;
                 if (Start == "1")
                 {
                     Console.Clear();
@@ -345,7 +346,7 @@ namespace Reservering
                 {
                     Console.Clear();
                     Menu();
-                    string gostart = Console.ReadLine();
+                    string gostart = Console.ReadLine()!;
                     if (gostart == "*")
                     {
                         Console.Clear();
@@ -363,7 +364,7 @@ namespace Reservering
                     Console.WriteLine($"\n  [*] Terug");
                 
                 Vraag:
-                    string gostart = Console.ReadLine();
+                    string gostart = Console.ReadLine()!;
                     if (gostart == "*")
                     {
                         Console.Clear();
@@ -439,7 +440,7 @@ namespace Reservering
                     Console.WriteLine("Sluitingstijden: " + tsCloseTime.Hours + ":" + tsCloseTime.Minutes);
                     //vraag om de reserveringstijd
                     Console.WriteLine("\nLet op u kunt niet na 18:30 reserveren, kies uw reserveringstijd (uu:mm): ");
-                    string strBTime = Console.ReadLine();
+                    string strBTime = Console.ReadLine()!;
                     //check of het een geldige tijd is
                     bool valid = false;
                     string[] sparts = strBTime.Split(':');
@@ -477,7 +478,7 @@ namespace Reservering
                 //json bookings
                 List<Booking> bookings = new List<Booking>();
                 if (File.Exists(file))
-                    bookings = JsonConvert.DeserializeObject<List<Booking>>(File.ReadAllText(file));
+                    bookings = JsonConvert.DeserializeObject<List<Booking>>(File.ReadAllText(file))!;
 
                 //laat tafel bookings zien
                 Console.WriteLine("Reserveringen op " + BookingDateTime.ToString());
@@ -586,7 +587,7 @@ namespace Reservering
                         {
                         name:
                             Console.WriteLine("Onder welke naam wilt u reserveren? ");
-                            name = Console.ReadLine();
+                            name = Console.ReadLine()!;
                             if (!name.All(char.IsLetter))
                             {
                                 Console.ForegroundColor = ConsoleColor.Red;
@@ -604,7 +605,7 @@ namespace Reservering
 
                         howmanypeople:
                             Console.WriteLine("Voor hoeveel personen wilt u reserveren? ");
-                            personen = Console.ReadLine();
+                            personen = Console.ReadLine()!;
                             if (personen == "1" || personen == "2" || personen == "3" || personen == "4" || personen == "5" || personen == "6" || personen == "7" || personen == "8")
                             {
                                 int x = Int32.Parse(personen);
@@ -641,7 +642,7 @@ namespace Reservering
                 bookings.Add(newBookingToSave);
                 File.WriteAllText(file, JsonConvert.SerializeObject(bookings));
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("\nSuccesvol geeserveerd.");
+                Console.WriteLine("\nSuccesvol gereserveerd.");
                 Console.ResetColor();
 
                // Console.ReadKey();
@@ -1041,7 +1042,7 @@ namespace Reservering
             Console.WriteLine("Type een nummer in : ");
 
 
-            string a = Console.ReadLine();
+            string a = Console.ReadLine()!;
             // kijkt of de gebruiker een intreger invult
             if (!int.TryParse(a, out int value))
             {
@@ -1063,7 +1064,7 @@ namespace Reservering
                     Console.WriteLine($"\n [*] Terug");
                     Console.ResetColor();
 
-                    string Back = Console.ReadLine();
+                    string Back = Console.ReadLine()!;
                     if (Back == "*")
                     {
                         Console.Clear();
@@ -1076,8 +1077,6 @@ namespace Reservering
                 }
                 else if (Choose_nummer == 2)
                 {
-
-                vijf:
                     Console.Clear();
                     // Hij opent de text file leest alle file in een string en sluit de file
 
@@ -1092,7 +1091,7 @@ namespace Reservering
                 Terug_naar_Nummer_1:
                     Console.WriteLine("\nVul een gerecht nummer in :");
                 Terug_naar_Nummer:
-                    string Kiesnummer_1 = Console.ReadLine();
+                    string Kiesnummer_1 = Console.ReadLine()!;
 
                     Totaal_Bedrag totaalbedrag = new Totaal_Bedrag()
                     {

@@ -160,5 +160,23 @@
     "GeboorteDatum": "2000-05-12",
     "TelefoonNummer": "0123456123",
     "Wachtwoord": "pl,okm741"
+  },
+  {
+    "ID": 18,
+    "Email": "maseh890@gmail.com",
+    "Naam": "Maseh",
+    "Achternaam": "Nuur",
+    "GeboorteDatum": "1995-12-12",
+    "TelefoonNummer": "0612345678",
+    "Wachtwoord": "1234567"
+  },
+  {
+    "ID": 19,
+    "Email": "ahmadhj@gmail.com",
+    "Naam": "Ahmad",
+    "Achternaam": "Maseh",
+    "GeboorteDatum": "1955-08-22",
+    "TelefoonNummer": "0258147369",
+    "Wachtwoord": "qwertyui"
   }
 ]
