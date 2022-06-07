@@ -151,5 +151,14 @@
     "GeboorteDatum": "2001-01-10",
     "TelefoonNummer": "0640335722",
     "Wachtwoord": "pokemon"
+  },
+  {
+    "ID": 17,
+    "Email": "osman78@live.nl",
+    "Naam": "Othman",
+    "Achternaam": "Asaad",
+    "GeboorteDatum": "2000-05-12",
+    "TelefoonNummer": "0123456123",
+    "Wachtwoord": "pl,okm741"
   }
 ]

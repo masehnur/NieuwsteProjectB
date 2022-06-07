@@ -641,7 +641,7 @@ namespace Reservering
                 bookings.Add(newBookingToSave);
                 File.WriteAllText(file, JsonConvert.SerializeObject(bookings));
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("\nReservering opgeslagen.");
+                Console.WriteLine("\nSuccesvol geeserveerd.");
                 Console.ResetColor();
 
                // Console.ReadKey();
